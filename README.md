@@ -2,7 +2,7 @@
 
 A production-ready, event-driven ETL pipeline built with AWS serverless technologies. This comprehensive solution provides automated data ingestion, transformation, quality validation, and real-time analytics capabilities with full observability and monitoring.
 
-## 🏗️ Architecture Overview
+## Architecture Overview
 
 ```
 ┌─────────────────┐    ┌──────────────────┐    ┌─────────────────┐
@@ -28,7 +28,7 @@ A production-ready, event-driven ETL pipeline built with AWS serverless technolo
 └─────────────────┘    └──────────────────┘    └─────────────────┘
 ```
 
-## 🚀 Features
+##  Features
 
 ### Core Pipeline Features
 - **Event-Driven Processing**: Automatic triggering from S3 events, SQS messages, and Kinesis streams
@@ -135,7 +135,7 @@ cdk deploy
 cdk deploy --context account=123456789012 --context region=us-west-2
 ```
 
-## 🏃‍♂️ Quick Start
+##  Quick Start
 
 ### 1. Upload Test Data
 ```bash
@@ -248,7 +248,7 @@ Automatic alerts are configured for:
 - Performance degradation
 - Cost threshold breaches
 
-## 🔍 Troubleshooting
+##  Troubleshooting
 
 ### Common Issues
 
@@ -293,7 +293,7 @@ export LOG_LEVEL=DEBUG
 export ENABLE_XRAY_TRACING=true
 ```
 
-## 📚 Documentation
+##  Documentation
 
 ### Lambda Functions
 - **Ingestion Function**: Handles data ingestion from various sources
@@ -335,7 +335,7 @@ The pipeline uses a sophisticated Step Functions workflow with:
 - Security groups for Lambda functions
 - Network ACLs for additional protection
 
-## 💰 Cost Optimization
+##  Cost Optimization
 
 ### Strategies Implemented
 - **S3 Lifecycle Policies**: Automatic transition to cheaper storage classes
@@ -350,7 +350,7 @@ The pipeline uses a sophisticated Step Functions workflow with:
 - Cost anomaly detection
 - Budget alerts and notifications
 
-## 🚧 Development
+##  Development
 
 ### Local Development Setup
 ```bash
@@ -387,7 +387,7 @@ The project includes GitHub Actions workflows for:
 - Code quality checks
 - Deployment to multiple environments
 
-## 🤝 Contributing
+##  Contributing
 
 1. Fork the repository
 2. Create a feature branch (`git checkout -b feature/amazing-feature`)
