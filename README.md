@@ -88,7 +88,7 @@ A production-ready, event-driven ETL pipeline built with AWS serverless technolo
 - AWS Secrets Manager
 - Amazon CloudWatch
 
-## 🛠️ Installation
+## Installation
 
 ### 1. Clone the Repository
 ```bash
@@ -163,7 +163,7 @@ aws athena start-query-execution \
   --work-group data-pipeline-workgroup
 ```
 
-## 📊 API Usage
+## API Usage
 
 ### Start Pipeline Execution
 ```bash
@@ -223,7 +223,7 @@ Sensitive configuration stored in AWS Secrets Manager:
 
 - `data-pipeline-secrets` - Database credentials and API keys
 
-## 📈 Monitoring
+##  Monitoring
 
 ### CloudWatch Dashboards
 The pipeline creates comprehensive dashboards showing:
@@ -318,7 +318,7 @@ The pipeline uses a sophisticated Step Functions workflow with:
 5. **Storage**: Processed data stored in partitioned S3 buckets
 6. **Cataloging**: Automatic schema discovery and metadata management
 
-## 🔐 Security
+## Security
 
 ### IAM Roles and Policies
 - Least privilege access control
